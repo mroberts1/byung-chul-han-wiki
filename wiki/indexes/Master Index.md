@@ -21,6 +21,7 @@ Central directory for all topics, concepts, and sources in the Spatial Intellige
 - [[Embodied AI]] — Intelligent systems grounded through interaction with environments
 - [[3D Representations]] — Structured encodings of spatial information
 - [[Neural Graphics]] — Machine learning approaches for generating and rendering 3D content
+- [[3D Gaussian Splatting]] — Efficient rendering via semi-transparent ellipsoids; practical neural graphics implementation
 
 ### To Create
 - Simulation Systems
@@ -35,6 +36,7 @@ Central directory for all topics, concepts, and sources in the Spatial Intellige
 ### Articles
 - [[3D as Code]] — World Labs essay on 3D as spatial programming interface
 - [[From Words to Worlds]] — Fei-Fei Li on spatial intelligence as AI's frontier
+- [[Streaming 3DGS Worlds on the Web]] — Technical deep dive into Spark 2.0 Level-of-Detail and streaming for massive 3D worlds
 
 ### To Ingest
 - [Marble](https://www.worldlabs.ai/blog/marble-world-model) — World Labs' multimodal world model
@@ -61,8 +63,8 @@ See [[wiki/log]] for chronological record of ingests, queries, and updates.
 
 | Metric | Count |
 |--------|-------|
-| Concepts | 5 |
-| Sources | 2 |
-| Ingested Articles | 2 |
+| Concepts | 6 |
+| Sources | 3 |
+| Ingested Articles | 3 |
 
 *Last updated: 2026-05-08*

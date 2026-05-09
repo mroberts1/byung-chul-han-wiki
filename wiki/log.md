@@ -29,7 +29,28 @@ Chronological record of ingests, queries, compilations, and maintenance operatio
 4. **Technical stack**: 3D representations (code) + neural graphics (language) + simulation engines (chips)
 5. **Embodied learning**: Robots require spatial intelligence; world models enable sim-to-real training at scale
 
-**Status**: Initial framework complete. Ready for:
-- Additional source ingestion (Marble, RTFM, SPARK papers)
+## [2026-05-08] ingest | Streaming 3DGS Worlds on the Web
+
+**Source Article**:
+- [[Streaming 3DGS Worlds on the Web]] (World Labs / Spark team) — Technical deep dive into scaling 3DGS rendering
+
+**Concepts Created/Updated**:
+- [[3D Gaussian Splatting]] (new) — Rendering via ellipsoids; practical neural graphics implementation
+- [[Neural Graphics]] (reference) — 3DGS as practical realization
+
+**Key Insights**:
+1. **3DGS as neural graphics substrate**: Natural output for NeRF/diffusion models; efficient real-time rendering
+2. **Level-of-Detail splat tree**: Continuous LoD enabling adaptive detail based on viewpoint; runs in O(budget) time
+3. **Progressive streaming**: .RAD format enables coarse-to-fine loading; spatial chunking prioritizes visible regions
+4. **Virtual memory for splats**: GPU page table manages unlimited worlds with fixed GPU memory
+5. **Production-ready scaling**: 40M+ splat worlds streaming to mobile/VR/desktop via Spark 2.0
+
+**Architectural Coherence**:
+- 3D Representations (code) ← [[3D Gaussian Splatting]] (language) → [[World Models]] (generation)
+- Spark renders Marble-generated worlds
+- Enables interactive 3D experiences at scale
+
+**Status**: Core spatial AI stack visible. Ready for:
+- Additional source ingestion (Marble architecture, RTFM rendering, physics integration)
 - Deep dives into specific technical papers
-- Application domain exploration
+- Application domain exploration (robotics, scientific discovery, creative tools)
