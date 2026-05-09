@@ -98,3 +98,18 @@ Content catalog. Every wiki page listed under its type with a one-line summary. 
 2. **Sim-to-real robotics** — Ground embodied AI applications in concrete robotics research
 3. **Spatial reasoning benchmarks** — Understand how spatial cognition is measured in AI systems
 4. **Physics integration in neural systems** — How simulation and learning coexist in hybrid pipelines
+
+---
+
+## Keywords
+
+- `#spatial-intelligence` — Domain root; every page gets this tag
+- `#world-models` — Generative/multimodal/interactive systems simulating physical or virtual environments
+- `#neural-graphics` — ML-based 3D generation and rendering (NeRF, 3DGS, diffusion)
+- `#3d-representations` — Structured spatial encodings (explicit, implicit, hybrid)
+- `#3d-gaussian-splatting` — 3DGS technique and derivatives (streaming, LoD, 4DGS)
+- `#embodied-ai` — Perception-action loop, robotics, sim-to-real transfer
+- `#rendering` — Real-time rendering, rasterization pipelines, GPU compute
+- `#ai-capabilities` — What current systems can and cannot do; failure modes
+- `#benchmarks` — Evaluation, measurement, spatial reasoning tests
+- `#cognitive-science` — Neuroscience/perception grounding; use sparingly, only when bridging to AI

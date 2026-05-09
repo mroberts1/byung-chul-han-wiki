@@ -16,7 +16,7 @@ See `wiki/_meta/eval-usage.md` for how this document is actually used.
 - `thin` — wiki has the concepts but sourcing is weak or single-source
 - `missing` — wiki can't answer
 
-Questions are grouped by what they probe. Don't reorder or renumber — breaks comparability across runs. Add new questions at the bottom.
+Questions are grouped by what they probe. **Do not reorder or renumber existing questions** — that breaks comparability across runs. Add new questions at the bottom with the next number. To retire a question, strike it through but leave it in place.
 
 ---
 
@@ -68,3 +68,9 @@ Probes: problem formulation clarity. Expected early rating: thin.
 
 **Q13. How does spatial intelligence in AI relate to spatial cognition in humans and animals — are we building similar mechanisms, or solving the same problems with different architectures?**
 Probes: grounding in cognitive science, ability to articulate genuine unknowns. Expected early rating: missing.
+
+---
+
+## Latest run
+
+*Not yet run. Run `/foundry-eval` to populate.*
