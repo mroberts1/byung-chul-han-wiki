@@ -1,4 +1,7 @@
 .obsidian/
+.smart-env/
+.chum-cache/
+.claude/
 .DS_Store
 *.swp
 *.swo
