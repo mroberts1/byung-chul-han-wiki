@@ -10,8 +10,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Emptiness
-
 Han's account of Buddhist *emptiness* (*kong*) is central to his argument in *Shanzhai* and to his broader philosophy of absence. Emptiness is not nihilistic nothingness — that is Hegel's misreading, which led him to attribute Chinese "immorality" to a Buddhist contempt for individual existence. Instead, emptiness is the negativity of *[[Decreation|decreation]]* and *absence*: it empties out [[Process vs Being|Being]], desubstantializing it, dissolving essence into process.
 
 The key distinction: nihilistic nothingness *negates* (destroys what exists); decreative emptiness *desubstantializes* (removes the claim to essence while leaving the thing in process). The Tao is not nothing — it is the path, continually changing course.

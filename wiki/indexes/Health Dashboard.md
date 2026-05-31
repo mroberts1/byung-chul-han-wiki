@@ -5,8 +5,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Health Dashboard
-
 *Local only — not published. For LLM health checks and editorial review.*
 
 ## Orphaned Concepts

@@ -10,8 +10,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# The Trace
-
 The Chinese concept of *zhen ji* (真跡) — literally "authentic trace" — is Han's key for dismantling the Western concept of the original. The trace is not a copy of a prior presence, nor a sign pointing toward a stable referent. It *differs from itself*: it keeps the artwork perpetually open, preventing it from achieving a final form or condensing into a monomorphic presence.
 
 Han draws an explicit parallel to Freud's memory-traces: not stable representations of experience, but products of complex construction subject to continual rearrangement and transcription. New constellations alter the appearance of earlier traces; past, present, and future interfuse. The Chinese original shares this structure — it is not a unique creation event but an *unending process of rearrangement*.

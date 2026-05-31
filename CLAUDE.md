@@ -87,6 +87,7 @@ Multiple research topics coexist in a single flat wiki. Topics are distinguished
 ## Conventions
 
 - All wiki content uses Obsidian-flavored markdown with `[[wikilinks]]`
+- Never use a top-level `# H1` heading in wiki pages — Quartz renders the frontmatter `title` as the page title via ArticleTitle; an H1 in the content creates a duplicate
 - Every concept article has YAML frontmatter: title, aliases, tags, created, updated
 - Every source summary has YAML frontmatter: title, source_type, url, authors, date, tags
 - Tags use lowercase-kebab-case and derive from BCH's own conceptual vocabulary (e.g. `#shanzhai`, `#decreation`, `#burnout-society`) — not generic descriptors. Always check `wiki/indexes/Tag Vocabulary.md` before creating a new tag.

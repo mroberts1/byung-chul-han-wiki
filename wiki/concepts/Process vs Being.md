@@ -9,8 +9,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Process vs Being
-
 The organizing contrast of Han's *Shanzhai* and a structuring opposition throughout his work. Western metaphysics is founded on **Being** (*Sein*, *ousia*): what is permanent, self-identical, underlying all change as that which remains the same. This gives Western thought its characteristic commitments — to the original as unique creation, to truth as immutable correspondence, to the subject as stable selfhood, to law as invariant rule.
 
 Chinese thought is founded on **process**: the Tao ("the way") embraces change where essence resists it. There is no absolute beginning, no creation in the emphatic sense, no discontinuous rupture. Time moves as continuous transformation, not as a series of events. *Ruins* — monuments to founding ruptures — are inconceivable within this framework.

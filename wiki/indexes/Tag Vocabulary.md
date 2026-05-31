@@ -5,8 +5,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Tag Vocabulary
-
 Canonical list of tags in use. All tags derive from BCH's own conceptual vocabulary. Before creating a new tag, check here first. Use Tag Wrangler to rename/merge if drift occurs.
 
 ## In Use

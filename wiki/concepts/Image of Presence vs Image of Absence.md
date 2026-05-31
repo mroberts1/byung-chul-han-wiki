@@ -9,8 +9,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Image of Presence vs Image of Absence
-
 Han's opposition between two fundamentally different regimes of the image, developed through close reading of specific artworks in *Shanzhai*.
 
 ## Image of Presence

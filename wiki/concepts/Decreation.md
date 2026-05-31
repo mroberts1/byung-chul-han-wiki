@@ -9,8 +9,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Decreation
-
 Han's term (*Ent-schöpfung* in German) for the desubstantializing operation at the heart of Chinese thought. Decreation empties out [[Process vs Being|Being]] — not by destroying it but by dissolving its claim to essence, immutability, and self-identity. What remains is [[The Trace|trace]], process, and [[Emptiness|emptiness]].
 
 Decreation stands opposed to *creatio ex nihilo* — the Western model of creation as a unique, originating act that produces something wholly new from nothing. Where Western creation posits a beginning in the emphatic sense, decreation refuses any absolute beginning or end. The Tao, as "the way," is its figure: a path that is flat and continually changing course, not deepening toward a mystery (as in Heidegger's forest paths).

@@ -16,8 +16,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Shanzhai: Deconstruction in China
-
 Han's argument in five chapters, each organized around a Chinese character: Chinese thought is deconstructionist *from the outset* — not a Western philosophical move applied to an alien tradition, but the native shape of Far Eastern thinking. The book uses the contemporary shanzhai (counterfeit/fake) phenomenon as its entry point, then traces the deep cultural logic behind it.
 
 ## Chapters

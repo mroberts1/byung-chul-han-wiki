@@ -4,8 +4,6 @@ created: 2026-05-31
 updated: 2026-05-31
 ---
 
-# Master Index
-
 Central directory for the Byung-Chul Han Knowledge Base.
 
 ## Topic Indexes
