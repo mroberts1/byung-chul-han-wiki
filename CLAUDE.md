@@ -89,10 +89,13 @@ Multiple research topics coexist in a single flat wiki. Topics are distinguished
 - All wiki content uses Obsidian-flavored markdown with `[[wikilinks]]`
 - Every concept article has YAML frontmatter: title, aliases, tags, created, updated
 - Every source summary has YAML frontmatter: title, source_type, url, authors, date, tags
-- Tags use lowercase-kebab-case: `#machine-learning`, `#transformer`
+- Tags use lowercase-kebab-case and derive from BCH's own conceptual vocabulary (e.g. `#shanzhai`, `#decreation`, `#burnout-society`) — not generic descriptors
 - Images are stored in `raw/images/` and referenced with relative paths
 - Index files are maintained automatically — never edit manually
 - Use Marp front matter (`marp: true`) for slide decks in `output/slides/`
+- Add `draft: true` to frontmatter for local-only pages (health dashboards, working notes) — Quartz excludes these from the published site
+- Dataview queries use vault-absolute paths: `FROM "wiki/concepts"`, `FROM "wiki/sources"`, etc.
+- Dataview queries do NOT render on the published Quartz site — they are for local Obsidian use only
 
 ## Commands for the LLM
 
