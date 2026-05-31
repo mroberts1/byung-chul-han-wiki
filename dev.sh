@@ -7,6 +7,7 @@ QUARTZ="$VAULT/.quartz"
 if [ ! -d "$QUARTZ" ]; then
   echo "Cloning Quartz v4..."
   git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git "$QUARTZ"
+  rm -f "$QUARTZ/.node-version"
 fi
 
 if [ ! -d "$QUARTZ/node_modules" ]; then
