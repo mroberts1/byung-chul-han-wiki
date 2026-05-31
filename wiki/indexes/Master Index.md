@@ -7,40 +7,20 @@ updated: 2026-05-31
 Central directory for the Byung-Chul Han Knowledge Base.
 
 ## Topic Indexes
-- [[Shanzhai Index]]
+- [[Shanzhai Index|Shanzhai — Deconstruction in China]]
 
-## All Sources
+## Sources
 
-```dataview
-TABLE date as "Year", source_type as "Type", tags
-FROM "wiki/sources"
-SORT date DESC
-```
+| Title | Type | Year | Tags |
+|-------|------|------|------|
+| [[Shanzhai - Deconstruction in China]] | book | 2011 | shanzhai, decreation, trace, process, emptiness, presence-absence |
 
-## All Concepts
+## Concepts
 
-```dataview
-TABLE tags
-FROM "wiki/concepts"
-SORT file.name ASC
-```
-
-## Orphaned Concepts
-*Concepts with no backlinks — candidates for further development or deletion.*
-
-```dataview
-LIST
-FROM "wiki/concepts"
-WHERE length(file.inlinks) = 0
-SORT file.name ASC
-```
-
-## Recently Modified
-
-```dataview
-TABLE file.mtime as "Modified"
-FROM "wiki"
-WHERE file.name != "Master Index"
-SORT file.mtime DESC
-LIMIT 15
-```
+| Concept | Tags |
+|---------|------|
+| [[Decreation]] | shanzhai, process, emptiness |
+| [[Emptiness]] | emptiness, process, shanzhai, decreation |
+| [[Image of Presence vs Image of Absence]] | presence-absence, shanzhai, trace |
+| [[Process vs Being]] | process, shanzhai, decreation |
+| [[The Trace]] | shanzhai, trace, process, presence-absence |

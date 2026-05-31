@@ -34,6 +34,7 @@ When new files appear in `raw/`, create a corresponding source summary in `wiki/
 - Write a structured summary with metadata (title, date, authors, URL, tags)
 - Extract key concepts and link to existing concept articles using `[[wikilinks]]`
 - Note any new concepts that need articles
+- Update `wiki/indexes/Master Index.md` and any relevant topic index pages with the new source and concepts
 - Append an entry to `wiki/log.md` (see Logging below)
 
 ### 2. Compile (source summaries → concept articles)
@@ -95,8 +96,7 @@ Multiple research topics coexist in a single flat wiki. Topics are distinguished
 - Index files are maintained automatically — never edit manually
 - Use Marp front matter (`marp: true`) for slide decks in `output/slides/`
 - Add `draft: true` to frontmatter for local-only pages (health dashboards, working notes) — Quartz excludes these from the published site
-- Dataview queries use vault-absolute paths: `FROM "wiki/concepts"`, `FROM "wiki/sources"`, etc.
-- Dataview queries do NOT render on the published Quartz site — they are for local Obsidian use only
+- Dataview queries do NOT render on the published Quartz site — use them only in `draft: true` pages (e.g. Health Dashboard). All published index pages use static markdown tables.
 
 ## Publishing
 
@@ -112,11 +112,11 @@ The wiki is published to GitHub Pages via Quartz v4. The Quartz framework is not
 Three community plugins are required. Install via Settings → Community Plugins.
 
 ### Dataview
-Used for live queries in index pages and the health dashboard. Not rendered on the published site.
+Used for live queries in the Health Dashboard only. Not rendered on the published site — published index pages use static markdown.
 
-- Index pages (`wiki/indexes/`) use `dataview` code blocks to auto-populate from frontmatter
 - The Health Dashboard (`wiki/indexes/Health Dashboard.md`, `draft: true`) tracks orphans, missing tags, and unresolved wikilinks
 - All Dataview queries use vault-absolute paths: `FROM "wiki/concepts"`, `FROM "wiki/sources"`, etc.
+- Do NOT add Dataview blocks to published pages — they render as raw code blocks on the site
 - No Dataview settings need changing from defaults
 
 ### Templater
