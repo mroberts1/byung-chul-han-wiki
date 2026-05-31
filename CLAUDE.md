@@ -89,7 +89,7 @@ Multiple research topics coexist in a single flat wiki. Topics are distinguished
 - All wiki content uses Obsidian-flavored markdown with `[[wikilinks]]`
 - Every concept article has YAML frontmatter: title, aliases, tags, created, updated
 - Every source summary has YAML frontmatter: title, source_type, url, authors, date, tags
-- Tags use lowercase-kebab-case and derive from BCH's own conceptual vocabulary (e.g. `#shanzhai`, `#decreation`, `#burnout-society`) — not generic descriptors
+- Tags use lowercase-kebab-case and derive from BCH's own conceptual vocabulary (e.g. `#shanzhai`, `#decreation`, `#burnout-society`) — not generic descriptors. Always check `wiki/indexes/Tag Vocabulary.md` before creating a new tag.
 - Images are stored in `raw/images/` and referenced with relative paths
 - Index files are maintained automatically — never edit manually
 - Use Marp front matter (`marp: true`) for slide decks in `output/slides/`
