@@ -97,6 +97,43 @@ Multiple research topics coexist in a single flat wiki. Topics are distinguished
 - Dataview queries use vault-absolute paths: `FROM "wiki/concepts"`, `FROM "wiki/sources"`, etc.
 - Dataview queries do NOT render on the published Quartz site — they are for local Obsidian use only
 
+## Publishing
+
+The wiki is published to GitHub Pages via Quartz v4. The Quartz framework is not committed to the repo — it is cloned at CI build time. Only `quartz.config.ts` and `quartz.layout.ts` live at the vault root. The GitHub Actions workflow (`.github/workflows/deploy.yml`) builds from `wiki/` as the content root on every push to `main`.
+
+- To change the site's appearance or configuration, edit `quartz.config.ts` or `quartz.layout.ts`
+- Dataview queries do not render on the published site — they are for local Obsidian use only
+- Pages with `draft: true` in frontmatter are excluded from the published site by Quartz's `RemoveDrafts` plugin
+- Raw source material (`raw/books/`, `raw/papers/`) is gitignored — copyrighted, local only
+
+## Obsidian Plugins
+
+Three community plugins are required. Install via Settings → Community Plugins.
+
+### Dataview
+Used for live queries in index pages and the health dashboard. Not rendered on the published site.
+
+- Index pages (`wiki/indexes/`) use `dataview` code blocks to auto-populate from frontmatter
+- The Health Dashboard (`wiki/indexes/Health Dashboard.md`, `draft: true`) tracks orphans, missing tags, and unresolved wikilinks
+- All Dataview queries use vault-absolute paths: `FROM "wiki/concepts"`, `FROM "wiki/sources"`, etc.
+- No Dataview settings need changing from defaults
+
+### Templater
+Provides consistent frontmatter scaffolding when creating new notes.
+
+- Templates live in `templates/` at the vault root
+- Three templates: `Concept Article`, `Source Summary`, `Topic Index`
+- **Manual setup required:** Settings → Templater → set Template folder to `templates`
+- Optional but recommended: enable Folder Templates and map `wiki/concepts` → `Concept Article`, `wiki/sources` → `Source Summary`, `wiki/indexes` → `Topic Index`
+
+### Tag Wrangler
+Allows bulk rename and merge of tags across the vault. No configuration needed — right-click any tag in the Tags panel.
+
+- The canonical tag vocabulary is in `wiki/indexes/Tag Vocabulary.md` (`draft: true`)
+- Before creating a new tag, check that file to avoid drift
+- Tags derive from the subject's own conceptual vocabulary — not generic descriptors like `#philosophy` or `#ontology`
+- Use Tag Wrangler to merge if duplicates appear (e.g. `#trace` and `#the-trace`)
+
 ## Commands for the LLM
 
 When the user says:
