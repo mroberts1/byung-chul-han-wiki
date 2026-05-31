@@ -19,4 +19,4 @@ cp "$VAULT/quartz.config.ts" "$QUARTZ/quartz.config.ts"
 cp "$VAULT/quartz.layout.ts" "$QUARTZ/quartz.layout.ts"
 
 cd "$QUARTZ"
-npx quartz build --serve --directory "$VAULT/wiki"
+npx quartz build --serve --directory "$VAULT/wiki" --wsPort 3002
