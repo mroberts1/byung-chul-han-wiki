@@ -17,6 +17,9 @@ Canonical list of tags in use. All tags derive from BCH's own conceptual vocabul
 | `#process` | Process vs. Being as the organizing contrast in Chinese thought | *Shanzhai* |
 | `#emptiness` | Buddhist *kong* — not nihilistic nothingness but creative openness | *Shanzhai* |
 | `#presence-absence` | Image of presence (Western) vs. image of absence (Chinese) | *Shanzhai* |
+| `#hyperculture` | The cultural condition of globalization; side by side; AND-logic; de-siting | *Hyperculture* |
+| `#de-siting` | Dissolution of the site as cultural anchor; de-facticization of Dasein | *Hyperculture* |
+| `#de-auratization` | Decay of Benjamin's aura in globalized culture; hyperreality as another shape of Being | *Hyperculture* |
 
 ## Reserved (anticipated from upcoming books)
 
