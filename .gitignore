@@ -15,7 +15,8 @@ raw/papers/
 **/.DS_Store
 **/.nomedia
 
-# Quartz build output (built in CI, not committed)
+# Quartz — local dev install and build output (not committed)
+.quartz/
 public/
 .quartz-cache/
 
